@@ -1,0 +1,23 @@
+{
+  "name": "glowingbear",
+  "version": "0.9.9",
+  "description": "Glowing Bear is a WeeChat web frontend.",
+  "main": "index.js",
+  "author": "red <red@redlan.co>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://www.glowing-bear.org/",
+    "serviceName": "Glowing Bear",
+    "message": "Glowing Bear is a WeeChat web frontend.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": "true"
+    },
+    "openDevTools": false
+  }
+}
